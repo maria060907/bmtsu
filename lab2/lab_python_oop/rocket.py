@@ -1,6 +1,5 @@
 from lab_python_oop.flying_object import FlyingObject
 
-
 class Rocket(FlyingObject):
 
   def __init__(self, name: str = "Космическая ракета", speed: float = 11000.0, fuel_consumption: float = 60.0,):
